@@ -1,0 +1,87 @@
+# set $rosewater #32302f
+# set $flamingo  #3c3836
+# set $pink      #504945
+# set $mauve     #665c54
+# set $red       #bdae93
+# set $maroon    #d5c4a1
+# set $peach     #ebdbb2
+# set $green     #fbf1c7
+# set $teal      #fb4934
+# set $sky       #fe8019
+# set $sapphire  #fabd2f
+# set $blue      #b8bb26
+# set $lavender  #8ec07c
+# set $text      #83a598
+# set $subtext1  #d3869b
+# set $subtext0  #d65d0e
+# set $overlay2  #d65d0e
+# set $overlay1  #838ba7
+# set $overlay0  #737994
+# set $surface2  #626880
+# set $surface1  #51576d
+# set $surface0  #414559
+# set $base      #303446
+# set $mantle    #292c3c
+# set $crust     #232634
+
+#
+# Color definition
+#
+
+# set $c1 #fd472f
+# set $c2 #d79921
+# set $c3 #99a2ea
+# set $c4 #333142
+# set $c5 #342f73
+# 
+# 
+# set $white #f4f4f8
+# set $dark #333333
+# set $dim #666666
+# 
+# 
+# set $focused_bgcolor $c2
+# set $focused_textcolor $dark
+# set $focused_indicator $c3
+# 
+# set $inactive_bgcolor $c5
+# set $inactive_textcolor $white
+# set $inactive_indicator $c5
+# 
+# set $unfocused_bgcolor $c4
+# set $unfocused_textcolor $dim
+# set $unfocused_indicator $c5
+# 
+# set $urgent_bgcolor $c1
+# set $urgent_textcolor $c4
+# set $urgent_indicator $c3
+# 
+# client.focused $focused_bgcolor $focused_bgcolor $focused_textcolor $focused_indicator $focused_bgcolor
+# client.focused_inactive $inactive_bgcolor $inactive_bgcolor $inactive_textcolor $inactive_indicator $inactive_bgcolor
+# client.unfocused $unfocused_bgcolor $unfocused_bgcolor $unfocused_textcolor $unfocused_indicator $unfocused_bgcolor
+# client.urgent $urgent_bgcolor $urgent_bgcolor $urgent_textcolor $urgent_indicator $urgent_bgcolor
+
+set $base00 #32302f
+set $base01 #3c3836
+set $base02 #504945
+set $base03 #665c54
+set $base04 #bdae93
+set $base05 #d5c4a1
+set $base06 #ebdbb2
+set $base07 #fbf1c7
+set $base08 #fb4934
+set $base09 #fe8019
+set $base0A #fabd2f
+set $base0B #b8bb26
+set $base0C #8ec07c
+set $base0D #83a598
+set $base0E #d3869b
+set $base0F #d65d0e
+
+# target                 title    bg      text    indicator  border
+client.focused           $base0B  $base00 $base05 $base06    $base0B
+client.focused_inactive  $base06  $base00 $base05 $base06    $base00
+client.unfocused         $base06  $base00 $base05 $base06    $base00
+client.urgent            $base0E  $base00 $base0E $base0E    $base0E
+client.placeholder       $base06  $base00 $base05 $base06    $base00
+client.background        $base00
